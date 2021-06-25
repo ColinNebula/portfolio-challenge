@@ -10,20 +10,50 @@
 </head>
 
 <body>
-  <header>
+  <div class="wrapper">
+    <section id="main-content">
+    <header class="header">
     <h1>Colin Nebula Portfolio</h1>
+
+    <nav>
+
+      <!-- Unordered List element -->
+       <ul>
+       
+         <!-- List item element -->
+         <li>
+           <!-- Anchor element -->
+          <a href="#my-portfolio">My Portfolio</a>
+         </li>
+      
+         <li> 
+          <a href="#recent-demos">Latest Demo</a>
+         </li>
+       
+         <li>
+          <a href="#contact-info">Contact Information</a>
+         </li>
+       
+      </ul>
+       </nav>
   </header>
 
   <div class="container">
-      <section id="main-bio">
-          <h2>Colin Nebula</h2>
-
-          <img src="./assets/images/C.Nebula.jpg" />
-
-          <p>
+      <section id="main-bio" class="developers">
+          <h2 class="section-title primary-border">
+            Welcome to my Portfilio Webpage</h2>
+      <article class="developer">
+      <img src="./assets/images/C.Nebula.jpg" alt="Colin Nebula is a full stack developer"/>
+          <div class="developer-bio text-left">
+            <h3>Colin Nebula</h3>
+            <h4>Full Stack Web Developer</h4>
+            <p>
               Lorem lorem ipsum usefjhjfsvl lorem joidsfkvdzmlorem lorem lorem ipsom Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic vitae velit rem porro necessitatibus repellendus aliquid laboriosam est. At facilis tempora adipisci? Fuga ab quasi corrupti quas illo dolorem reiciendis!
               hzfghg lorem dolor lorem ipsum
             </p>
+          </div>
+        </article>
+        </section>
       
       <!-- "my-portfolio -->
       <section id="my-portfolio">
@@ -43,14 +73,16 @@
               <li><strong>Github</strong> <a href="#">colinnebula@github.com</a></li>
               <li><strong>LinkedIn</strong> <a href="#">Coming Soon!</a></li>
           </ul>
-      
+    </div> 
+    </section> 
     </div>
 
   <footer>
       <h2>Colin Nebula Portfolio</h2>
-      <a href="#">Thank you for taking a look at my portfolio</a><br />
+      
     <div>
-        &copy;, 2021 Colin Nebula
+      <a href="#">Thank you for taking a look at my portfolio</a><br />
+      &copy;, 2021 Colin Nebula
     </div>
   </footer>
 </body>
