@@ -6,7 +6,7 @@ This webpage is properly geared to reach as many users as possible.
 It has a lot of features including search engine optimisation, accessibility for people with vision disabilities.
 
 Demo Preview
-https://colinnebula.github.io/challenge/
+https://colinnebula.github.io/portfolio-challenge/
 
 Table of Content
 
