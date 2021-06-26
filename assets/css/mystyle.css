@@ -15,9 +15,25 @@
     box-sizing: inherit;
 }
 
+body {
+    margin: 50px;
+}
+
 .wrapper {
     width: 1024px;
     margin: 40px auto;
+}
+#main-content,
+#header,
+#developer,
+#content,
+#my-portfolio,
+#social-info,
+#footer {
+    width: 1024;
+    padding:30px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Media Quaries */
@@ -31,13 +47,17 @@
         width: 100%;
         padding: 20px;
     }
+
     #main-content,
+    #header,
+    #developer,
+    #content,
     #my-portfolio,
-    #recent-demos,
-    #contact-info {
+    #social-info,
+    #footer {
         width: 100%;
     }
-    #recent-demos {
+    #header {
         margin-top: 40px;
     }
 }
@@ -51,10 +71,14 @@
         width: 100%;
         padding: 20px;
     }
+
     #main-content,
+    #header,
+    #developer,
+    #content,
     #my-portfolio,
-    #recent-demos,
-    #contact-info {
+    #social-info,
+    #footero {
         width: 100%;
     }
     #recent-demos {
@@ -71,13 +95,17 @@
         width: 100%;
         padding: 20px;
     }
+    
     #main-content,
+    #header,
+    #developer,
+    #content,
     #my-portfolio,
-    #recent-demos,
-    #contact-info {
+    #social-info,
+    #footer {
         width: 100%;
     }
-    #recent-demos {
+    #header {
         margin-top: 40px;
     }
 }
@@ -92,10 +120,14 @@
         width: 100%;
         padding: 20px;
     }
+
     #main-content,
+    #header,
+    #developer,
+    #content,
     #my-portfolio,
-    #recent-demos,
-    #contact-info {
+    #social-info,
+    #footer {
         width: 100%;
     }
     #recent-demos {
@@ -112,25 +144,30 @@
         width: 100%;
         padding: 20px;
     }
+
+    #main-content,
+    #header,
+    #developer,
     #content,
     #my-portfolio,
-    #contact-info {
+    #social-info,
+    #footer {
         width: 100%;
     }
-    #recent-demos {
+    #my-portfolio {
         margin-top: 40px;
     }
 }
 
 body {
-    color: #39a6b2;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3d4246; 
 }
 
 /* apply style to <header> */
 .header {
-  padding: 20px;
-  background-color: #323343;
+  padding: 30px;
+  background-color: #32243c;
+
 }
 
 .header h1 {
@@ -186,12 +223,14 @@ body {
 .developer {
     width: 1024px;
     margin: 0 auto 30px auto;
-    background: #024e76;
+    background: #696969;
     color: #ffffff;
     overflow: auto;
   }
 
+  /*developer imge */
   .developer img {
+    padding: 30px 0px 0 30px; 
     float: left;
     width: 230px;
     height: 230px;
@@ -220,25 +259,27 @@ body {
     line-height: 1.3;
 }
 
+/* first-letter css code*/
 .developer p::first-letter {
-    color: #ff0000;
+    color: #32243c;
     font-size: xx-large;
 }
 
+
   .social-info {
-    width: 90%;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 200px;
+    width: 1024;
+    margin: 0 auto 30px auto;
+    padding: 40px;
+    height: 150px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#2589bd;
     color: #ffffff;
 }
 
 .my-portfolio {
-    width: 90%;
-    margin-bottom: 20px;
-    padding: 50px;
+    width: 1024;
+    margin: 0 auto 30px auto;
+    padding: 30px;
     height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #92bb00;
@@ -246,12 +287,17 @@ body {
 }
 
 .social-info h2 {
-    text-align: center;
+    text-align: left;
 }
 
+
 .social-info h3 {
-    margin: 0;
+    text-align: left;
+    padding: 0;
     display: inline;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 25px;
 }
 
 
@@ -269,31 +315,39 @@ body {
     max-height: 200px;
 }
 
+.my-portfolio {
+    max-height: 200px;
+}
+
 .my-portfolio h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .my-portfolio p {
-    float: left;
-    font-size: 18px;
+    padding: 0;
+    float: relative;
+    font-size: 17px;
     
 }
 
 .my-portfolio a {
+    padding: 0px;
     float: left;
 }
 
 
 .my-portfolio h2 {
+    padding: 0;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .my-portfolio h3 {
-    padding: 30px;
-    display: inline-block;
-    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    display: inline;
+    font-size: 30px;
     line-height: 1.3;
     margin-bottom: 25px;
 }
@@ -308,7 +362,7 @@ body {
 .footer {
     background: #b6a797;
     width: 100%;
-    padding: 30px 35px;
+    padding: 20px;
     clear: both;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
@@ -321,7 +375,7 @@ body {
 .footer h2 {
     display: inline;
     color:#fcf6ec;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 
