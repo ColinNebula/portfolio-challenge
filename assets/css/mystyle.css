@@ -128,33 +128,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
-
 /* apply style to <header> */
 .header {
-  padding: 30px 35px;
-  background-color: #39a6b2;
+  padding: 30px;
+  background-color: #323343;
 }
 
 .header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #fce138;
+  color: #fffef9;
   margin: 0;
   display: inline;
 }
 
-h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
+
+/* This is the link to the header div lu class */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Here is the link to the header div lu li class */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 
 /* trying to adjust <h3> element to make it larger set margin to 0 reduce word wrapping*/
 .header h3 {
@@ -163,31 +169,13 @@ h1 {
 
 .header a {
   text-decoration: none;
-  color: #fce138;
-}
-
-.header nav {
-  float: right;
-  margin: 7px 0;
-}
-
-.header nav ul li {
-  display: inline;
-}
-
-.header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
+  color: #fffef9;
 }
 
 .contact-info {
     width: 30%;
   }
 
-.developers {
-    text-align: center;
-}
 
 .developer {
     width: 1000px;
@@ -226,32 +214,75 @@ h1 {
     line-height: 1.3;
   }
 
-footer {
-    background: #7b76ab;
+  .social-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#2589bd;
+    color: #ffffff;
+  }
+
+  .social-info {
+    width: 1000px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+  }
+
+  .my-portfolio {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #92bb00;
+    color: #ffffff;
+}
+
+.content {
     width: 100%;
-    padding: 40px 35px;
-}
-
-footer a {
-    color: #d5b98a;
-}
-
-footer h2 {
     display: inline;
-    color:#d5b98a;
-    font-size: 30px;
-    margin: 0;
+    margin-left: 20px;
 }
 
-footer div {
-    float: left;
-    line-height: 1.5;
+.my-portfolio h2 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-section {
-    padding: 60px;
+.my-portfolio img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
+
+.footer {
+    background: #7b76ab;
+    width: 100%;
+    padding: 30px 35px;
+    clear: both;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer a {
+    color: #d5b98a;
+}
+
+.footer h2 {
+    display: inline;
+    color:#d5b98a;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
 
 /*.hero {
     height: 800px;
@@ -262,83 +293,20 @@ section {
     background-position: center;
 } */
 
-.portfolio {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #92bb00;
-    color: #ffffff;
-}
 
-.my-portfolio {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #92bb00;
-    color: #ffffff;
-}
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* Here is the float-right class */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 /* Here is the portfolios class */
-.portfolios {
+/*.portfolios {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
+    float: auto;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.my-portfolio {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.recent-demos {
-    margin-bottom: 32px;
-    color: #ffffff;  
-}
-
-.my-portfolio h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.recent-demos h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+}*/
 
 
-.my-portfolio img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.recent-demos img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px; 
-}
 
