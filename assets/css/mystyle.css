@@ -4,12 +4,12 @@
     box-sizing: border-box;
   }
 
- /* body */
+ /* BODY */
  body {
     background-color: #2c404c;
   }
 
-  /* header element */
+ /* HEADER SECTION */
   header {
     padding: 20px 35px;
     background-color: #2d2538;
@@ -22,9 +22,9 @@
     margin: 0;
     display: inline;
   }
-  /* trying to adjust <h3> element to make it larger set margin to 0 reduce word wrapping*/
+
   header h3 {
-    margin: 0;
+    margin: 20px;
   }
   
   header a {
@@ -38,7 +38,7 @@
   }
   
   header nav ul li {
-    display: inline;
+    display: inline-block;
   }
   
   header nav ul li a {
@@ -47,7 +47,7 @@
     font-size: 22px;
   }
 
-  /* developer element */
+  /* DEVELOPER SECTION */
   .developer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -84,7 +84,7 @@
   }
 
 
-  /* portfolio element */
+  /* MY PORTFOLIO  SECTION */
   .my-portfolio {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -126,7 +126,7 @@
   }
 
 
-  /* social-info element */
+  /* SOCIAL INFO SECTION */
   .social-info {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -175,7 +175,7 @@
       padding: 20px;
   }
 
-/* footer element */
+/* FOOTER CODE SECTION */
 footer {
     background: #b6a797;
     width: 100%;
@@ -203,4 +203,159 @@ footer {
     padding: 60px;
   }
 
-  /* css code end */
+  /* CSS CODES END */
+
+  /* WRAPPING CODE BEGING */
+  *,
+  *:before,
+  *after {
+    box-sizing: inherit;
+  }
+
+  .wrapper {
+    width: 1024px;
+    margin: 0 20px 0 20px; 
+  }
+
+  #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* The width at 1024 and below */
+  @media screen and (max-width: 1024px) {
+    body {
+      background-color: #8909df;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+  /* The width at 768 and below */
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #df0986;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+  /* The width at 600 and below */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #df0909;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+   /* The width at 480 and below */
+   @media screen and (max-width: 480px) {
+    body {
+      background-color: #df7009;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+   /* The width at 300 and below */
+   @media screen and (max-width: 300px) {
+    body {
+      background-color: #dfbf09;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+  /* WRAPPER CODE ENDS */
+
