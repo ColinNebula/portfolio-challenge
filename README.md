@@ -11,7 +11,15 @@ This webpage is properly geared to reach as many users as possible.
 It has a lot of features including search engine optimisation, accessibility for people with vision disabilities.
 
 Demo Preview
+
+My current portfolio.
 https://colinnebula.github.io/portfolio-challenge/
+
+This is work in progress, the Run-buddy project.
+https://colinnebula.github.io/run-buddy/
+
+The Horiseon Project
+https://colinnebula.github.io/challenge/
 
 Table of Content.
 
