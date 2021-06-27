@@ -1,6 +1,11 @@
 Colin Nebula
 Challenge 1 Portfolio Webpage
 
+
+As an open and approachable person who loves to engage with others both in person and virtually, I find myself always drawn to anything to do with technology and computers. As a self starter who loves being part of a team as well, I bring discpline and rigour from my years serving the US Army. This, in addition to my numerous diplomas in digital art, technology, animation, and now coding, have helped me reach my present postion where I hope to develop websites, both large and small. Ease of transition, smooth and appealing visuals that help deliver a client's vision in a concise and timely manner are my goals. Thank you for visiting my portfolio.
+
+
+WEBSITE
 This website is a portfolio webpage, it it showcases my new web development skills. 
 This webpage is properly geared to reach as many users as possible.
 It has a lot of features including search engine optimisation, accessibility for people with vision disabilities.
@@ -8,13 +13,13 @@ It has a lot of features including search engine optimisation, accessibility for
 Demo Preview
 https://colinnebula.github.io/portfolio-challenge/
 
-Table of Content
+Table of Content.
 
 My portfolio
 
 Recent Projects
 
-Social Media Marketing
+Social Media Netwotking
 
 
 Installatinon
