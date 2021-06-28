@@ -11,7 +11,7 @@
 
  /* HEADER SECTION */
   header {
-    padding: 20px 35px;
+    padding: 20px;
     background-color: #2d2538;
   }
   
@@ -87,7 +87,7 @@
   /* MY PORTFOLIO  SECTION */
   .my-portfolio {
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 25px auto 25px auto;
     background: #14a76c;
     color: #ffffff;
     overflow: auto;
@@ -129,7 +129,7 @@
   /* SOCIAL INFO SECTION */
   .social-info {
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 25px auto 30px auto;
     background: #b2a8d5;
     color: #ffffff;
     overflow: auto;
@@ -206,15 +206,10 @@ footer {
   /* CSS CODES END */
 
   /* WRAPPING CODE BEGING */
-  *,
-  *:before,
-  *after {
-    box-sizing: inherit;
-  }
 
   .wrapper {
     width: 1024px;
-    margin: 0 20px 0 20px; 
+    margin: 40xp auto; 
   }
 
   #header,
@@ -222,9 +217,12 @@ footer {
   #my-portfolio,
   #social-info,
   #footer {
+    width: 1024px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
 
   /* The width at 1024 and below */
@@ -237,7 +235,7 @@ footer {
       width: 100%;
       padding: 20px;
     }
-    #header,
+  #header,
   #developer,
   #my-portfolio,
   #social-info,
