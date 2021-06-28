@@ -1,235 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
-:root {
-    --aquamarin: aquamarine;
-    --black: #272727;
-}
+ /* BODY */
+ body {
+    background-color: #2c404c;
+  }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
+ /* HEADER SECTION */
+  header {
+    padding: 20px;
+    background-color: #2d2538;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    display: inline;
+  }
 
-body {
-    margin: 50px;
-}
-
-.wrapper {
-    width: 1024px;
-    margin: 40px auto;
-}
-#main-content,
-#header,
-#developer,
-#content,
-#my-portfolio,
-#social-info,
-#footer {
-    width: 1024;
-    padding:30px;
-    display: flex;
-    justify-content: center;
-}
-
-/* Media Quaries */
-/* Witdth at 1024px and below */
-@media screan and (max-width: 1024px) {
-    body {
-        background-color: #0000ff;
-    }
-    .wrapper {
-        /*box-model here */
-        width: 100%;
-        padding: 20px;
-    }
-
-    #main-content,
-    #header,
-    #developer,
-    #content,
-    #my-portfolio,
-    #social-info,
-    #footer {
-        width: 100%;
-    }
-    #header {
-        margin-top: 40px;
-    }
-}
-
-/* Width at 768px and below */
-@media screan and (max-width: 768px) {
-    body {
-        background-color: #00ff00;
-    }
-    .wrapper {
-        width: 100%;
-        padding: 20px;
-    }
-
-    #main-content,
-    #header,
-    #developer,
-    #content,
-    #my-portfolio,
-    #social-info,
-    #footero {
-        width: 100%;
-    }
-    #recent-demos {
-        margin-top: 40px;
-    }
-}
-
-/* Width at 600px and below */
-@media screan and (max-width: 600px) {
-    body {
-        background-color: #00123e;
-    }
-    .wrapper {
-        width: 100%;
-        padding: 20px;
-    }
-    
-    #main-content,
-    #header,
-    #developer,
-    #content,
-    #my-portfolio,
-    #social-info,
-    #footer {
-        width: 100%;
-    }
-    #header {
-        margin-top: 40px;
-    }
-}
-
-
-/* Width at 480px and below */
-@media screan and (max-width: 480px) {
-    body {
-        background-color: #333;
-    }
-    .wrapper {
-        width: 100%;
-        padding: 20px;
-    }
-
-    #main-content,
-    #header,
-    #developer,
-    #content,
-    #my-portfolio,
-    #social-info,
-    #footer {
-        width: 100%;
-    }
-    #recent-demos {
-        margin-top: 40px;
-    }
-}
-
-/* Width at 300px and below */
-@media screan and (max-width: 300px) {
-    body {
-        background-color: #333;
-    }
-    .wrapper {
-        width: 100%;
-        padding: 20px;
-    }
-
-
-    #header,
-    #developer,
-    #content,
-    #my-portfolio,
-    #social-info,
-    #footer {
-        width: 100%;
-    }
-    #my-portfolio {
-        margin-top: 40px;
-    }
-}
-
-body {
-    background-color: #3d4246; 
-}
-
-/* apply style to <header> */
-.header {
-  padding: 30px;
-  background-color: #32243c;
-
-}
-
-/* apply style to header h1 */
-.header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #fffef9;
-  margin: 0;
-  display: inline;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
+  header h3 {
+    margin: 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  header nav {
     float: right;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-/* This is the link to the header div lu class */
-.header div ul {
-    list-style-type: none;
-}
-
-/* Here is the link to the header div lu li class */
-.header div ul li {
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-}
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
 
-
-/* trying to adjust <h3> element to make it larger set margin to 0 reduce word wrapping*/
-.header h3 {
-  margin: 0;
-}
-
-.header a {
-  text-decoration: none;
-  color: #fffef9;
-}
-
-/* apply style to devloper id  */
+  /* DEVELOPER SECTION */
   .developer {
-    width: 1024;
+    width: 900px;
     margin: 0 auto 30px auto;
-    background: #696969;
+    background: #024e76;
     color: #ffffff;
     overflow: auto;
   }
-
-  /*developer img */
+  
   .developer img {
     width: 35%;
     float: left;
   }
-
+  
   .developer-bio {
     padding: 35px;
     float: left;
     width: 65%;
   }
-
+  
   .developer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;   
@@ -237,149 +74,286 @@ body {
   
   .developer-bio h4 {
     font-weight: lighter;
-    font-size: 26px;
+    font-size: 17px;
     margin-bottom: 25px;
-}
+  }
   
   .developer-bio p {
     font-size: 17px;
     line-height: 1.3;
+  }
 
-}
 
-/* first-letter css code*/
-.developer p::first-letter {
-    color: #32243c;
-    font-size: xx-large;
-}
-
-/* apply style to social-info id */
-  .social-info {
-    width: 1024px;
-    margin: 0 auto 30px auto;
-    height: 150px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:#2589bd;
+  /* MY PORTFOLIO  SECTION */
+  .my-portfolio {
+    width: 900px;
+    margin: 25px auto 25px auto;
+    background: #14a76c;
     color: #ffffff;
-}
-
-/* apply style to my-portfolio id */
-.my-portfolio {
-    width: 1024px;
-    padding: 50px;
-    margin: 0 auto 30px auto;
-    height: 250px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #92bb00;
-    color: #ffffff;
-}
-
-.social-info h2 {
-    text-align: left;
-}
-
-
-.social-info h3 {
-    text-align: left;
-    padding: 0;
-    display: inline;
-    font-size: 30px;
-    line-height: 1.3;
-    margin-bottom: 25px;
-}
-
-
-.social-info ul li {
-    display: inline-block;
-    padding: 20px;
-    margin-left: 35px;
-}
-
-.my-portfolio img {
-    max-height: 200px;
-}
-
-.developer {
-    max-height: 200px;
-}
-
-.social-info {
-    max-height: 200px;
-}
-
-.my-portfolio {
-    max-height: 200px;
-}
-
-.my-portfolio h2 {
-    margin-bottom: 20px;
-    font-size: 26px;
-}
-
-.my-portfolio p {
-    padding: 0;
-    font-size: 17px;
-    text-align: left;
-    
-}
-
-.my-portfolio a {
-    padding: 10;
-    text-align: left;
-
-}
-
-
-.my-portfolio h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+    overflow: auto;
+  }
   
-.my-portfolio h3 {
-    text-align: left;
-    padding: 20px;
-    display: inline;
-    font-size: 20px;
-    line-height: 1.3;
+  .my-portfolio img {
+    width: 35%;
+    float: right;
+  }
+  
+  .my-portfolio-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+  
+  .my-portfolio-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;   
+  }
+
+  .my-portfolio-bio h3 a {
+    font-size: 17px;
+    margin-bottom: 8px;   
+  }
+  
+  .my-portfolio-bio h4 {
+    font-weight: lighter;
+    font-size: 17px;
     margin-bottom: 25px;
-}
+  }
+  
+  .my-portfolio-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+  }
 
-.my-portfolio img {
-    float: right;
-    width: 250px;
-    height: 250px;
-    margin-right: 20px;
-}
 
-  /* apply style to footer id */
-.footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
-
-.footer a {
+  /* SOCIAL INFO SECTION */
+  .social-info {
+    width: 900px;
+    margin: 25px auto 30px auto;
+    background: #b2a8d5;
     color: #ffffff;
-}
-
-.footer h2 {
-    display: inline;
-    color:#fcf6ec;
-    font-size: 18px;
-    margin: 0;
-}
-
-.footer div {
+    overflow: auto;
+  }
+  
+  .social-info img {
+    width: 35%;
     float: right;
+  }
+  
+  .social-info-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+  
+  .social-info-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;   
+  }
+
+  .social-info-bio h3 a {
+    font-size: 17px;
+    margin-bottom: 8px;   
+  }
+  
+  .social-info-bio h4 {
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+  
+  .social-info-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+
+  .social-info h2 {
+    padding: 30px;
+  }
+
+  .social-info ul li {
+      padding: 20px;
+  }
+
+/* FOOTER CODE SECTION */
+footer {
+    background: #b6a797;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  
+  footer a {
+    color: #ffffff;
+  }
+  
+  footer h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  footer div {
+    float: auto;
     line-height: 1.5;
-    text-align: right;
-}
+    text-align: center;
+  }
+  
+  section {
+    padding: 60px;
+  }
 
-section {
-  padding: 60px;
-}
+  /* CSS CODES END */
 
-/* css code end */
+  /* WRAPPING CODE BEGING */
 
+  .wrapper {
+    width: 1024px;
+    margin: 40xp auto; 
+  }
 
+  #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+    width: 1024px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* The width at 1024 and below */
+  @media screen and (max-width: 1024px) {
+    body {
+      background-color: #8909df;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+  /* The width at 768 and below */
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #df0986;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+  /* The width at 600 and below */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #df0909;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+   /* The width at 480 and below */
+   @media screen and (max-width: 480px) {
+    body {
+      background-color: #df7009;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+   /* The width at 300 and below */
+   @media screen and (max-width: 300px) {
+    body {
+      background-color: #dfbf09;
+    }
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      width: 100%;
+    }
+    #header,
+  #developer,
+  #my-portfolio,
+  #social-info,
+  #footer {
+      margin-top: 40px;
+    }
+  }
+
+  /* WRAPPER CODE ENDS */
 
