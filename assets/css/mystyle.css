@@ -50,7 +50,7 @@
   /* DEVELOPER SECTION */
   .developer {
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0 auto;
     background: #024e76;
     color: #ffffff;
     overflow: auto;
@@ -87,13 +87,14 @@
   /* MY PORTFOLIO  SECTION */
   .my-portfolio {
     width: 900px;
-    margin: 25px auto 25px auto;
+    margin: 0 auto 0 auto;
     background: #14a76c;
     color: #ffffff;
     overflow: auto;
   }
   
   .my-portfolio img {
+    padding: 40px;
     width: 35%;
     float: right;
   }
@@ -129,7 +130,7 @@
   /* SOCIAL INFO SECTION */
   .social-info {
     width: 900px;
-    margin: 25px auto 30px auto;
+    margin: 0 auto 0 auto;
     background: #b2a8d5;
     color: #ffffff;
     overflow: auto;
@@ -179,7 +180,7 @@
 footer {
     background: #b6a797;
     width: 100%;
-    padding: 40px 35px;
+    padding: 30px;
   }
   
   footer a {
