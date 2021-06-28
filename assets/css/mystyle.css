@@ -11,8 +11,7 @@
 
   /* header element */
   header {
-    padding: 30px;
-    padding: 20px 35px;
+    padding: 10px;
     background-color: #2d2538;
   }
   
@@ -26,7 +25,7 @@
   /* h3 element */
   header h1 {
     text-align: left;
-    margin: 10;
+    margin: 0;
   }
   
   header a {
@@ -53,7 +52,7 @@
   /* developer element */
   .developer {
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0 auto;
     background: #024e76;
     color: #ffffff;
     overflow: auto;
@@ -89,10 +88,9 @@
 
   /* portfolio element */
   .my-portfolio {
-    margin-bottom: 20px;
     width: 900px;
     padding: 50px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0 auto;
     background: #14a76c;
     color: #ffffff;
     overflow: auto;
@@ -134,7 +132,7 @@
   /* social-info element */
   .social-info {
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0 auto;
     background: #b2a8d5;
     color: #ffffff;
     overflow: auto;
@@ -184,7 +182,7 @@
 footer {
     background: #b6a797;
     width: 100%;
-    padding: 40px 35px;
+    padding: 30px;
   }
   
   footer a {
@@ -204,9 +202,6 @@ footer {
     text-align: center;
   }
   
-  section {
-    padding: 60px;
-  }
 
   /* css code end */
 
@@ -230,6 +225,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 /* Width at 1024px and below */
 @media screen and (max-width: 1024px) {
